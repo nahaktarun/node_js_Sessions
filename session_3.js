@@ -53,5 +53,4 @@ buffer1.copy(buffer3);
 var buffer2 = new Buffer.from(" How are you?");
 var result = buffer2.slice(0, 9);
 console.log(result.toString());
-
 console.log(buffer2.length);
